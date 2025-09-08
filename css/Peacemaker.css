@@ -1,0 +1,154 @@
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body-style{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/a4158666-ea58-48ba-92ad-035e099e6241/james-gunn-teases-peacemaker-season-2-as-the-story-of-superman-and-the-dcu-continues-with-new-posters.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+#titulo-principal {
+  color: #C8102E;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: 1000;
+  margin-top: -10px;
+}
+
+.caja{
+    background-color: #0A0F1C;
+    color: white;
+    width: 45%;        
+    margin: 0 auto;    
+    min-height: 100vh; 
+    padding: 40px;
+    border-radius: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner{
+    background-image: url("https://images.wallpapersden.com/image/download/official-peacemaker-hd-season-1-poster_bWtobG6UmZqaraWkpJRoZWVlrWZrbW0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 58vh;
+    border-radius: 10px;
+}
+
+.subtitulo{
+    color: #D4AF37;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.parrafos{
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parrafos-container{
+  color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gif{  
+  margin: 20px auto;
+  max-width: 32%;    
+  border: 3px solid #D4AF37;
+  border-radius: 4px;
+}
+
+.gif:hover{
+  transform: scale(1.03);
+  transition-duration: 0.3s, ease;
+  transform: translateY(-10);
+}
+
+.container {
+  display: flex;
+  background-color: #D4AF37;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.card{
+  background-color: #0A0F1C;
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  margin: 5px;
+  color: #D4AF37;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card-image{
+  margin: 20px auto;
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.card1{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/John_Cena_by_Gage_Skidmore.jpg/250px-John_Cena_by_Gage_Skidmore.jpg");
+}
+
+.card2{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Jennifer_Holland_by_Gage_Skidmore.jpg");
+}
+
+.card3{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/13/Freddie_Stroma_by_Gage_Skidmore.jpg");
+}
+
+.card:hover{
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #3da9fc);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  transform: scale(1.03);
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.why-good {
+  max-width: 800px;   
+  margin: 40px auto;  
+  padding: 20px;
+  background: #0A0F1C;
+  border-radius: 10px;
+}
+
+.why-good h2 {
+  margin-bottom: 15px;
+  color: #D4AF37;
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.why-good p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}

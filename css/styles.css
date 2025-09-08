@@ -1,0 +1,97 @@
+/* Estilos de fuente y color usando Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f7; /* Color de fondo más suave */
+    color: #333; /* Color de texto principal más oscuro */
+    line-height: 1.6; /* Mejorando la legibilidad con mayor interlineado */
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #2a9d8f; /* Azul vibrante para el título principal */
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    text-align: center;
+    margin-top: 20px; /* Espacio superior para separar del borde */
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #555; /* Color sutilcito en azul claro */
+    font-size: 1.5em; /* Tamaño medio */
+    margin-bottom: 20px; /* Espacio inferior para separar del siguiente contenido */
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.2em; /* Texto introductorio ligeramente más grande */
+    color: #444; /* Texto más oscuro */
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px; /* Limitar ancho para mejor legibilidad */
+}
+
+.country-section {
+    margin-top: 40px; /* Espacio superior para separación entre secciones */
+}
+
+.country-image {
+    max-width: 100%; /* Ajustando las imágenes para ser más responsivas */
+    height: auto; /* Mantener las proporciones naturales */
+    display: block; /* Centrar las imágenes */
+    margin: 20px auto; /* Centrando las imágenes */
+}
+
+.country-section h3 {
+    color: #e76f51; /* Naranja vibrante para los nombres de los países */
+    font-size: 2em; /* Tamaño de fuente más grande para los títulos de los países */
+    text-align: center;
+    margin-bottom: 15px; /* Espacio inferior para separar del texto */
+}
+
+.country-section p {
+    font-size: 1.1em;
+    max-width: 800px; /* Centrado los párrafos y ajustando margen inferior */
+    margin: 0 auto 20px auto; /* Justificado con texto para aspecto más limpio */
+    text-align: justify;
+}
+
+.country-section a {
+    display: block;
+    text-align: center;
+    color: #2a9d8f; /* Color verde para los enlaces */
+    font-weight: bold; /* Negrita en los enlaces para mejorar la visibilidad */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.country-section a:hover {
+    color: #e76f51; /* Naranja al pasar el cursor */
+    text-decoration: underline; /* Subrayar enlaces al pasar el mouse */
+}
+
+.country-table {
+    width: 80%; /* Centrando la tabla y añadiendo margen superior e inferior */
+    margin: 40px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.country-table th, 
+.country-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.country-table th {
+    background-color: #2a9d8f; /* Fondo azul claro para encabezados */
+    color: #fff; /* Texto en blanco para contraste */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #555; /* Gris suave para el texto del pie de página */
+    font-family: 'Montserrat', sans-serif;
+}
